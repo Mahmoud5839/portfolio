@@ -872,6 +872,7 @@ section {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .contact-form input{
