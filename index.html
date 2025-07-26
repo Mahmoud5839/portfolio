@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Mahmoud Abu Rabeh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar" data-aos="fade-right">
+      <div class="profile">
+        <a href="#home"><img src="Mahmoud.jpg" alt="profile" /></a>
+      </div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-item active"><i class="fas fa-home"></i> Home</a>
+        <a href="#services" class="nav-item"><i class="fab fa-servicestack"></i> Services</a>
+        <a href="#portfolio" class="nav-item"><i class="fas fa-briefcase"></i> Portfolio</a>
+        <a href="#resume" class="nav-item"><i class="fas fa-user"></i> Resume</a>
+        <a href="#contact" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+      </nav>
+
+      <p class="follow">Follow Me</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/mahmoud-abu-rabeh-96a481374?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMwu51zpbTqGAlkKePDFZYQ%3D%3D"
+          target="_blank" aria-label="Twitter"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mahmoud5839" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/mahmoud7113" target="_blank" aria-label="Facebook"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mahmoud_hooda_0/" target="_blank" aria-label="Instagram"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div style="display: flex;">
+      <div>
+        <button class="menu-toggle" onclick="toggleSidebar()" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a href="#home" class="home-icons">
+          <i class="fas fa-home"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar-list" id="sidebar">
+      <div class="profile">
+        <a href="#home"><img src="Mahmoud.jpg" alt="profile" width="200px" height="250px" /></a>
+      </div>
+      <nav class="nav-links">
+        <a href="#home" class="nav-item active"><i class="fas fa-home"></i> Home</a>
+        <a href="#services" class="nav-item"><i class="fab fa-servicestack"></i> Services</a>
+        <a href="#portfolio" class="nav-item"><i class="fas fa-briefcase"></i> Portfolio</a>
+        <a href="#resume" class="nav-item"><i class="fas fa-user"></i> Resume</a>
+        <a href="#contact" class="nav-item"><i class="fas fa-envelope"></i> Contact</a>
+      </nav>
+
+      <p class="follow">Follow Me</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/mahmoud-abu-rabeh-96a481374?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMwu51zpbTqGAlkKePDFZYQ%3D%3D"
+          target="_blank" aria-label="Twitter"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mahmoud5839" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/mahmoud7113" target="_blank" aria-label="Facebook"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mahmoud_hooda_0/" target="_blank" aria-label="Instagram"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+
+    <div class="main-content">
+      <section id="home" class="home-section">
+        <div class="home-content">
+          <div class="text-content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Hello, I'm </h3>
+            <h1>Mahmoud Abu Rabeh</h1>
+            <h3>And I'm a <span id="typing-text"></span><span class="cursor">|</span></h3>
+            <p>
+              Hi, I'm a Machine Learning and Data Science enthusiast with hands-on experience in building intelligent
+              models, analyzing complex datasets, and delivering actionable insights.
+              I specialize in Machine Learning, Deep Learning, and Data Analysis using Python and tools like Pandas,
+              Scikit-learn, TensorFlow, and Matplotlib.
+              I enjoy solving real-world problems through data-driven solutions and constantly seek to learn and grow in
+              the AI/ML field.
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/mahmoud-abu-rabeh-96a481374?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMwu51zpbTqGAlkKePDFZYQ%3D%3D"
+                target="_blank" aria-label="Twitter"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/mahmoud5839" target="_blank" aria-label="GitHub"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/mahmoud7113" target="_blank" aria-label="Facebook"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/mahmoud_hooda_0/" target="_blank" aria-label="Instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+
+            <a href="CV.html" target="_blank" class="btn-download">See My CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section">
+        <div class="services-content" data-aos="fade-up">
+          <div class="services-header">
+            <h2>My Services</h2>
+            <p class="section-subtitle">I offer a comprehensive range of professional services to help you achieve your
+              digital goals</p>
+          </div>
+
+          <div class="featured-grid">
+            <div class="featured-item" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-laptop-code"></i>
+              <h3>ML Model Development</h3>
+              <p>I build custom machine learning models to solve business problems like prediction, classification, and
+                clustering using tools like Scikit-learn and XGBoost.</p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <a href="#portfolio" class="btn-text" style="position: relative; bottom: 12px;">View
+                  Work</a>
+                <a href="#portfolio" class="btn-text"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="featured-item" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Deep Learning Solutions</h3>
+              <p>I design and train deep learning models using TensorFlow or PyTorch for tasks like image
+                classification, text analysis, and more.</p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <a href="#portfolio" class="btn-text" style="position: relative; bottom: 12px;">View
+                  Work</a>
+                <a href="#portfolio" class="btn-text"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="featured-item" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Data Analysis & Visualization</h3>
+              <p>I explore and analyze your data to uncover insights, trends, and patterns using tools like Pandas,
+                Matplotlib, and Seaborn.</p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <a href="#portfolio" class="btn-text" style="position: relative; bottom: 12px;">View
+                  Work</a>
+                <a href="#portfolio" class="btn-text"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="featured-item" data-aos="fade-up" data-aos-delay="500">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Exploratory Data Analysis (EDA)</h3>
+              <p>I provide in-depth data exploration to help you understand your dataset before building any models.</p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <a href="#portfolio" class="btn-text" style="position: relative; bottom: 12px;">View
+                  Work</a>
+                <a href="#portfolio" class="btn-text"><i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio-section">
+        <!-- Portfolio Hero -->
+        <div class="portfolio-hero">
+          <div>
+            <div class="portfolio-header" data-aos="fade-up" data-aos-delay="600">
+              <h1>Portfolio</h1>
+              <p>Explore a collection of my latest projects and creative works. Each project represents a unique
+                challenge and solution in web development and design.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Filter -->
+        <div class="container1">
+          <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="700">
+            <button class="filter-btn active" data-filter="all"><i class="fas fa-th-large"></i> All</button>
+            <button class="filter-btn" data-filter="ML"><i class="fas fa-laptop-code"></i> ML Model Development</button>
+            <button class="filter-btn" data-filter="DL"><i class="fas fa-laptop-code"></i> DL Model Development</button>
+            <button class="filter-btn" data-filter="DA"><i class="fas fa-paint-brush"></i> Data Analysis &
+              Visualization</button>
+            <button class="filter-btn" data-filter="EDA"><i class="fas fa-shopping-cart"></i> EDA </button>
+          </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-page">
+          <div class="container2">
+            <div class="portfolio-grid">
+              <!-- Project 1 -->
+              <div class="portfolio-item" data-category="ML" data-aos="fade-up" data-aos-delay="800">
+                <div class="portfolio-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="E-commerce Platform">
+                  <div class="portfolio-overlay">
+                    <a href="#" class="view-project"><i class="fas fa-link"></i></a>
+                    <a href="#" class="view-image"><i class="fas fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="portfolio-category">ML Model Development</span>
+                  <h3 class="portfolio-title">House Price Prediction</h3>
+                  <p class="portfolio-description">Predict house prices based on features like size, location, and
+                    number of rooms using a regression model.</p>
+                  <div class="portfolio-meta">
+                    <span class="portfolio-date"><i class="far fa-calendar-alt"></i> June 2025</span>
+                    <span class="portfolio-tag">Python, Pandas, scikit-learn, Matplotlib</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="portfolio-item" data-category="DA" data-aos="fade-up" data-aos-delay="900">
+                <div class="portfolio-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                    alt="Dashboard UI">
+                  <div class="portfolio-overlay">
+                    <a href="#" class="view-project"><i class="fas fa-link"></i></a>
+                    <a href="#" class="view-image"><i class="fas fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="portfolio-category">Data Analysis</span>
+                  <h3 class="portfolio-title">Sales Dashboard </h3>
+                  <p class="portfolio-description">A clean and intuitive dashboard interface for data
+                    visualization and business analytics with interactive charts and widgets.</p>
+                  <div class="portfolio-meta">
+                    <span class="portfolio-date"><i class="far fa-calendar-alt"></i> June 2025</span>
+                    <span class="portfolio-tag">Python, Pandas, Plotly, Jupyter Notebook</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="portfolio-item" data-category="DL" data-aos="fade-up" data-aos-delay="1000">
+                <div class="portfolio-img">
+                  <img
+                    src="https://www.researchgate.net/publication/329626844/figure/fig3/AS:703422630207489@1544720432529/MNIST-pattern-recognition-simulation-a-Constituents-of-a-single-layer-network-for-the.png"
+                    alt="Online Store">
+                  <div class="portfolio-overlay">
+                    <a href="#" class="view-project"><i class="fas fa-link"></i></a>
+                    <a href="#" class="view-image"><i class="fas fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="portfolio-category">DL Model Development</span>
+                  <h3 class="portfolio-title">MNIST Digit Classifier</h3>
+                  <p class="portfolio-description">A deep learning model using CNN to classify handwritten digits from
+                    the MNIST dataset</p>
+                  <div class="portfolio-meta">
+                    <span class="portfolio-date"><i class="far fa-calendar-alt"></i> June 2025</span>
+                    <span class="portfolio-tag">TensorFlow, Keras, CNN</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="portfolio-item" data-category="EDA" data-aos="fade-up" data-aos-delay="1100">
+                <div class="portfolio-img">
+                  <img
+                    src="https://storage.googleapis.com/kaggle-datasets-images/6255817/10136240/432dd34b9e5cc950b56e3fd62d2194aa/dataset-cover.png?t=2024-12-08-08-56-54"
+                    alt="Finance Dashboard">
+                  <div class="portfolio-overlay">
+                    <a href="#" class="view-project"><i class="fas fa-link"></i></a>
+                    <a href="#" class="view-image"><i class="fas fa-search-plus"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="portfolio-category">EDA Dashboard</span>
+                  <h3 class="portfolio-title">E-Commerce Sales EDA</h3>
+                  <p class="portfolio-description">
+                    An exploratory data analysis project on e-commerce sales data to uncover business insights, customer
+                    behavior, and sales trends. </p>
+                  <div class="portfolio-meta">
+                    <span class="portfolio-date"><i class="far fa-calendar-alt"></i> June 2025</span>
+                    <span class="portfolio-tag">Python, Pandas, Matplotlib, Seaborn</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume-section">
+        <div class="resume-header" data-aos="fade-up" data-aos-delay="1200">
+          <h1 style="text-align: center;">Resume</h1>
+          <p class="section-subtitle" style="text-align: center;">A brief overview of my professional journey, skills,
+            and
+            achievements.</p>
+        </div>
+
+        <div>
+          <h1
+            style="color: #00eaff; margin: 0 auto; margin-top: 40px; border-bottom: 1px solid #00eaff; width: fit-content;"
+            data-aos="fade-up" data-aos-delay="1200">
+            Education & Experience</h1>
+          <h1 style="color: #00eaff; margin-left: 10%; margin-top: 40px;" data-aos="fade-up" data-aos-delay="1200">
+            Education </h1>
+          <div class="education">
+            <div class="education-item" data-aos="fade-up" data-aos-delay="1300">
+              <h3>Bachelor’s Degree in Computer Science </h3>
+              <h4>2023 - Present</h4>
+              <p>
+                Currently pursuing a degree in Computer Science, focusing on programming, data structures, and modern
+                technologies in software development.
+              </p>
+            </div>
+            <div class="education-item" data-aos="fade-up" data-aos-delay="1400">
+              <h3>High School Certificate</h3>
+              <h4>2019 - 2022</h4>
+              <p>Completed secondary education with strong academic performance and a clear vision to pursue Computer
+                Science.</p>
+            </div>
+            <div class="education-item" data-aos="fade-up" data-aos-delay="1500">
+              <h3>National Telecomunication Institute (NTI)</h3>
+              <h4>2025</h4>
+              <p>This course provides a practical introduction to machine learning techniques used in modern data
+                analysis. It covers fundamental concepts.</p>
+            </div>
+            <div class="education-item" data-aos="fade-up" data-aos-delay="1600">
+              <h3>Information Tecnology Institute (ITI)</h3>
+              <h4>2024 - 2025</h4>
+              <p style="font-size: 13px;">Completed a MERN Stack Development course with a focus on front-end using
+                React.js.
+                Gained hands-on experience in building modern, responsive web interfaces.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h1 style="color: #00eaff; margin-left: 10%; margin-top: 40px;" data-aos="fade-up" data-aos-delay="1800">
+          Experiance </h1>
+        <div class="experiance">
+          <div class="experiance-item" data-aos="fade-up" data-aos-delay="1900">
+            <h2>Machine Learning Engineer</h2>
+            <h4>Freelance (Remote - 2025 - Present)</h4>
+            <p>
+              Trained ML models for predictive analysis using scikit-learn and pandas.
+              Worked on House Price Prediction project using linear regression and data preprocessing techniques.
+              Visualized results using Matplotlib and Seaborn
+            </p>
+          </div>
+          <div>
+            <img src="myExperience.jpg" alt="myExperience" data-aos="fade-up" data-aos-delay="2000">
+          </div>
+          <div class="experiance-item" data-aos="fade-up" data-aos-delay="2100">
+            <h2>Data Analyst</h2>
+            <h4>Freelance (Remote - 2025 - Present)</h4>
+            <p>
+              Analyzed complex datasets using Python (Pandas, NumPy) and Excel to extract meaningful insights.
+              Built interactive dashboards and reports using Power BI and Matplotlib to visualize trends and KPIs.
+              Cleaned and transformed raw data for modeling and prediction tasks in projects like House Price
+              Prediction.
+            </p>
+          </div>
+          <div class="experiance-item" data-aos="fade-up" data-aos-delay="2200">
+            <h2>Frontend Developer</h2>
+            <h4>Freelance (Remote - 2024 - Present)</h4>
+            <p>
+              Developed responsive websites for businesses using React.js, Redux and tailwindcss. Built fully functional
+              interfaces including authentication and dynamic content.
+              Managed frontend UI and connected to backend APIs. </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-header" data-aos="fade-up" data-aos-delay="2300">
+          <h1 style="text-align: center;">Contact</h1>
+          <p class="contact-subtitle" style="text-align: center;">If you'd like to get in touch, feel free to reach out
+            via email or use the form below.</p>
+        </div>
+        <form class="contact-form" data-aos="fade-up" data-aos-delay="2400">
+          <div class="row">
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="row">
+            <input type="tel" placeholder="Phone Number" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit" data-aos="fade-up" data-aos-delay="2400">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p>&copy; 2025 Mahmoud Abu Rabeh. All rights reserved.</p>
+      <p>Designed and Developed by Mahmoud Abu Rabeh</p>
+    </div>
+  </footer>
+
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000, // مدة الحركة
+      once: true,     // تظهر الحركة مرة واحدة فقط
+    });
+  </script>
+</body>
+
+</html>
