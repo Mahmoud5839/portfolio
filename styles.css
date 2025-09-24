@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 .sidebar-list {
@@ -67,7 +68,7 @@ body {
   scroll-behavior: smooth;
   display: flex;
   justify-content: space-between;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .sidebar {
   position: fixed;
@@ -96,7 +97,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid #ff0040;
+  border: 5px solid #00c3ff;
   padding: 3px;
 }
 .nav-links {
@@ -115,12 +116,12 @@ body {
   gap: 10px;
   border-radius: 25px;
   transition: 0.3s;
-  border-bottom: 3px solid #ee074c;
+  border-bottom: 3px solid #07d3ee;
 }
 
 .nav-links a.active,
 .nav-links a:hover {
-  background: linear-gradient(to right, #ff0055, #3700ff);
+  background: linear-gradient(to right, #002fff, #00ffff);
   color: white;
   transition: all 0.3s ease-in;
   scale: 1.1;
@@ -150,7 +151,7 @@ body {
 }
 
 .social a:hover {
-  background: #f81f01;
+  background: #002fff;
 }
 
 /* ========================== */
@@ -173,6 +174,8 @@ section {
   justify-content: center;
   padding: 50px 30px;
   border-bottom: 1px solid #ccc;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .home-content {
@@ -473,7 +476,7 @@ section {
   .services-section .services-content .featured-item {
     width: 90%;
   }
-  
+
 }
 
 /* Portfolio Page Specific Styles */
@@ -697,7 +700,7 @@ section {
   .portfolio-item {
     width: 90%;
   }
-  
+
 }
 
 /* Resume Section */
@@ -827,7 +830,7 @@ section {
   .resume-section .experiance img {
     display: none;
   }
-  
+
 }
 
 /* Contact section */
@@ -875,7 +878,7 @@ section {
   flex-wrap: wrap;
   gap: 20px;
 }
-.contact-form input{
+.contact-form input {
   height: 60px;
 }
 .contact-form input,
@@ -895,7 +898,7 @@ section {
 }
 
 .contact-form button {
-  /* width: 200px; */
+
   align-self: center;
   padding: 20px;
   background-color: #00eaff;
